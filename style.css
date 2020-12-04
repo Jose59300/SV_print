@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/**** Navbar ****/
+nav{
+    width: 100%;
+    height: 200px;
+    display: inline;
+    position: relative;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: lighter;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.nav_mobile{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.list_mobile ul li{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.button_hamburger:hover .list_mobile{
+    display: block;
+}
+.list_mobile ul:hover{
+    display: block;
+}
+.list_mobile{
+    position: absolute;
+    display: none;
+    width: 30%;
+    float: none;
+    text-align: center;
+    background-color: white;
+    top: 100px;
+    right: 0;
+    padding: 0 20px;
+    z-index: 1;
+}
+.list_mobile ul li{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
+    border-bottom: 2px solid #FFADAD;
+}
+
+.list_mobile li a{
+    width: 100%;
+}
+.list_mobile ul:hover{
+    display: block;
+}
+.list_mobile ul li:hover{
+    display: block;
+}
+nav .list_mobile li:hover{
+    color:#032442;
+}
+ .nav_desktop{
+    display: none;
+} 
+.logo_print{
+    width: 140px;
+    padding: 12px 12px 12px 40px;
+    float: left;
+}
+.button_hamburger{
+    width: 50px;
+    float: right;
+    padding: 30px 14%;
+}
+.button_hamburger img{
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    .nav_desktop{
+        width: 100%;
+        height: 100px;
+        display: block;
+    }
+    .list_desktop {
+        width: 75%;
+        height: 100%;
+        float: left;
+    }
+    .list_desktop ul{
+        list-style-type: none;
+        margin:40px 0;    
+    }
+    .list_desktop li{
+        float: left;
+        margin: 0 20px;
+        padding: 0 10px 15px 10px;
+    }
+    .list_desktop li a{
+        float: block;
+    }
+    .list_desktop li:hover{
+        border-bottom:2px solid #FFADAD;
+        cursor: pointer;
+
+    }
+    .list_desktop li:hover a{
+        color: #FFADAD;
+    }
+
+    nav li{
+        font-family: 'roboto';
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .nav_mobile{
+        display: none;
+    }
+    nav li{
+        font-family: 'roboto';
+        font-size: 18px;
+        font-weight: lighter;
+    }
+}
