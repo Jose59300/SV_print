@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: 'roboto';
 }
 /**** Navbar ****/
 nav{
@@ -107,6 +108,45 @@ nav .list_mobile li:hover{
     top: 50%;
     left: 37%;
 }
+/**** Footer ****/
+
+.partenaire{
+    width: 100%;
+}
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    height: 180px;
+    background-color: dimgrey;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+}
+.legal_notice{
+    width: 30%;
+    display: inline;
+    padding: 10px 0 20px 10px;
+}
+.legal_notice a{
+    color: white;
+}
+.copyright{
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 10px 10px 0;
+}
+.networks{
+    padding: 10px 0 10px 0;
+}
+.networks p{
+    text-align: center;
+}
+.networks img{
+    width: 60px;
+}
+
 @media screen and (min-width: 768px){
     .nav_desktop{
         width: 100%;
@@ -154,5 +194,9 @@ nav .list_mobile li:hover{
         font-family: 'roboto';
         font-size: 18px;
         font-weight: lighter;
+    }
+    .networks img{
+        padding-top: 20px;
+        width: 80px;
     }
 }
