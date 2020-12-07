@@ -1,0 +1,84 @@
+h2{
+    margin: 20px auto;
+
+}
+.formulaire{
+    width: 80%;
+    margin: auto;
+    font-family: 'roboto';
+}
+.formulaire div{
+    margin-top: 20px;
+}
+.formulaire h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.line{
+    margin: 20px auto;
+}
+#msg{
+    width: 290px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+#msg textarea{
+    width: inherit;
+    height: inherit;
+}
+#envoyer{
+    margin-left: 220px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.formulaire{
+    width: 60%;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+}   
+#nom{
+    padding:0 105px 0 0;
+    margin-bottom: 20px;
+}
+#prenom{
+    margin-bottom: 20px;
+}
+#mail{
+    margin-bottom: 20px;
+}
+#msg{
+    margin-bottom: 20px;
+    width: 350px;
+}
+#envoyer{
+    margin-top: 20px;
+    margin-left: 265px;
+}
+
+}
+@media screen and (min-width: 992px) {
+    .formulaire{
+        width: 60%;
+    }
+    .names{
+        display: flex;
+        justify-content: space-between;
+    }
+    #nom{
+        padding:0 105px 0 0;
+        margin-bottom: 20px;
+    }
+    #prenom{
+        padding-right: 100px;
+    }
+    #msg{
+        width: 400px;
+    }
+    #envoyer{
+        margin-left: 315px;
+    }
+
+}
