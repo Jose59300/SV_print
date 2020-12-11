@@ -90,7 +90,8 @@ nav .list_mobile li:hover{
   padding: 30px 14%;
 }
 .button_hamburger img{
-  width: 100%;
+    padding: 0;
+    width: 100%;
 }
 .jumbotron{
   width: 100%;
