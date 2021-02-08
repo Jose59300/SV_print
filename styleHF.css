@@ -5,6 +5,9 @@
   font-family: 'roboto';
 }
 /**** Navbar ****/
+header{
+  position: sticky;
+}
 nav{
   width: 100%;
   height: 200px;
@@ -95,27 +98,27 @@ nav .list_mobile li:hover{
 }
 .jumbotron{
   width: 100%;
-  height: 500px;
+  height: 565px;
   background-image: url(./image/jumbotron.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .citation{
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 37%;
   color: white;
-  font-size: x-large;
+  font-size: 35px;
   font-weight: bold;
 }
 /**** Footer ****/
 
 .partenaire{
   width: 100%;
+  padding-top: 90px;
 }
 
 footer{
@@ -193,9 +196,6 @@ footer{
     font-family: 'roboto';
     font-size: 18px;
     font-weight: lighter;
-  }
-  .jumbotron q{
-    left:43%;
   }
   .nav_mobile{
     display: none;
